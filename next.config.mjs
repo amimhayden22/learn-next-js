@@ -9,14 +9,14 @@ const nextConfig = {
     //       },
     //     ];
     // },
-    async rewrites() {
-        return [
-          {
-            source: '/backend/:path*',
-            destination: 'https://bpiw.sadasa.id/backend/:path*', // Redirect ke Laravel
-          },
-        ];
-      },
+    // async rewrites() {
+    //     return [
+    //       {
+    //         source: '/backend/:path*',
+    //         destination: 'https://bpiw.sadasa.id/backend/:path*', // Redirect ke Laravel
+    //       },
+    //     ];
+    //   },
     images: {
         remotePatterns: [
             {
