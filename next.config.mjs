@@ -22,6 +22,10 @@ const nextConfig = {
             {
                 protocol: "https",
                 hostname: "bpiw.sadasa.id"
+            },
+            {
+                protocol: "https",
+                hostname: "placehold.co"
             }
         ]
     }

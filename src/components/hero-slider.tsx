@@ -38,7 +38,7 @@ export default function HeroSlider({ banners }: HeroSliderProps) {
           }`}
         >
           <Image
-            src={banner.image}
+            src="https://placehold.co/1440x640.png?text=1440x640+\n+Banner%20Statis"
             alt={banner.title}
             fill
             className="object-cover"
